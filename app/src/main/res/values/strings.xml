@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Link Development</string>
+    <string name="english" translatable="false">English</string>
+    <string name="arabic" translatable="false">العربية</string>
+    <string name="main_activity_welcome">Welcome</string>
+    <string name="main_activity_e_magazine">E-Magazine</string>
+    <string name="main_activity_explore">Explore</string>
+    <string name="main_activity_live_chat">Live Chat</string>
+    <string name="main_activity_wish_list">Wish List</string>
+    <string name="main_activity_gallary">Gallery</string>
+    <string name="by_author">By %1$s</string>
+    <string name="msg_some_thing_went_wrong">something went wrong !</string>
+    <string name="msg_check_your_connection_to_network">please check your internet connection</string>
+    <string name="details_open_website">open website</string>
+
+</resources>

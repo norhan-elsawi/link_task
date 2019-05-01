@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_margin="@dimen/_10sdp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_article_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_150sdp"
+            android:src="@color/ash_grey"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="@dimen/_10sdp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_article_image"
+            android:ellipsize="end"
+            android:textSize="@dimen/_15sdp"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:textColor="@color/outer_space"
+            tools:text="kjdfkl lksjdlakdj lkjsdlkasjd lkjsdlkjL;KSDJKLJ Lkjsdlkjasdklj lkjsdlkjLAKSDJ LKSJDLKSJAD Lksdjlksjdlksjdlksjdlkasjdlkasjdlksj lksdj"
+            android:maxLines="2"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_title"
+            android:ellipsize="end"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:textSize="@dimen/_12sdp"
+            tools:text="kjdfkl lksjdlakdj lkjsdlkasjd lkjsdlkjL;KSDJKLJ Lkjsdlkjasdklj lkjsdlkjLAKSDJ LKSJDLKSJAD Lksdjlksjdlksjdlksjdlkasjdlkasjdlksj lksdj"
+            android:maxLines="1"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_author"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/ash_grey"
+            android:padding="@dimen/_10sdp"
+            tools:text="april 3,2017"/>
+
+
+</RelativeLayout>

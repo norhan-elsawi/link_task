@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nv_explore"
+                android:icon="@drawable/ic_explore"
+                android:title="@string/main_activity_explore"/>
+
+        <item
+                android:id="@+id/nv_live_chat"
+                android:icon="@drawable/ic_live"
+                android:title="@string/main_activity_live_chat"/>
+
+        <item
+                android:id="@+id/nv_gallary"
+                android:icon="@drawable/ic_gallery"
+                android:title="@string/main_activity_gallary"/>
+
+
+        <item
+                android:id="@+id/nv_wish_list"
+                android:icon="@drawable/ic_wishlist"
+                android:title="@string/main_activity_wish_list"/>
+
+        <item
+                android:id="@+id/nv_e_magazine"
+                android:icon="@drawable/ic_e_magazine"
+                android:title="@string/main_activity_e_magazine"/>
+    </group>
+</menu>
